@@ -1,0 +1,30 @@
+/* ==========================================================================
+   ESTILOS PARA FORMULARIO
+   ========================================================================== */
+
+.c_information{
+    width: 100%;
+    background: rgb(71, 71, 71);
+    padding: 4px 0 4px 0;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.c_information p{
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.c_error{
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-left: 5px;
+}
+
+.ocultar-mensaje{
+    display: none;
+}
+
+

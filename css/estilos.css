@@ -1,0 +1,760 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    padding: 0px;
+    margin: 0px;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #3c3c3c;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+
+
+/* ==========================================================================
+   ESTILOS NAVBAR
+   ========================================================================== */
+
+
+.navbar-fixed-top {
+    border-width: 0px;
+}
+
+
+.nav {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav>li {
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav>li>a {
+    font-weight: 400;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.navbar-nav>li>a {
+    line-height: 28px;
+}
+
+
+
+.navbar .navbar-nav>li>a:hover,
+.navbar .navbar-nav>li>a:focus {
+    color: rgba(10, 6, 39, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.navbar-toggle {
+    padding: 10px;
+    margin: 25px 15px 25px 0;
+}
+
+.navbar-toggle:hover {
+    background-color: rgba(10, 6, 39, 1);
+}
+
+.navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-brand {
+    height: 80px;
+}
+
+.navbar-brand img {
+    height: 60px;
+}
+
+
+
+/* ==========================================================================
+   ESTILOS PARA CONTROLAR EL COLLAPSE DEL MENU PRINCIPAL
+   ========================================================================== */
+
+@media (max-width: 1000px) {
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-left,
+    .navbar-right {
+        float: none !important;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse {
+        border: 0px;
+    }
+
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0px;
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+    .navbar-nav {
+        float: none !important;
+        margin-top: 7.5px;
+    }
+
+    .navbar-nav>li {
+        float: none;
+    }
+
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .collapse.in {
+        display: block !important;
+    }
+}
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   MIS ESTILOS
+   ========================================================================== */
+
+/*------------------------------------------------COLORES---------------------------------------------*/
+
+
+
+#micarousel .carousel {
+    padding: 0;
+    margin: 0;
+}
+
+#myCarousel {
+    width: 100%;
+}
+
+
+
+
+
+
+
+/*-----------COLORES DE FONDO--------------*/
+
+.fondo-menu {
+    background-color: #000000cc;
+}
+
+.fondo-blanco {
+    background-color: white;
+}
+
+.fondo-azul {
+    background-color: #0c0c0c;
+}
+
+.fondo-aguamarina {
+    background-color: #0c0c0c;
+}
+
+
+
+/*-----------COLOR DE TEXTOS--------------*/
+
+.texto-blanco {
+    color: #ffffff;
+}
+
+.texto-azul {
+    color: rgb(65, 112, 157);
+}
+
+.texto-gris {
+    color: #9c9c9c;
+    font-size: 12px;
+}
+
+
+
+/*-----------ALINEACIONES--------------*/
+
+.align-justify {
+    text-align: justify;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-center {
+    text-align: center;
+}
+
+
+
+
+
+.italica {
+    font-style: italic;
+}
+
+.negrita {
+    font-weight: 600;
+}
+
+
+
+/*-----------TAMAÑO TEXTO--------------*/
+
+.txt-7em {
+    font-size: 7em;
+}
+
+.txt-5em {
+    font-size: 5em;
+}
+
+.txt-3em {
+    font-size: 3em;
+}
+
+.txt-2-5em {
+    font-size: 2.5em;
+}
+
+.txt-2em {
+    font-size: 2em;
+}
+
+.txt-1-5em {
+    font-size: 1.5em;
+}
+
+.txt-1-2em {
+    font-size: 1.2em;
+}
+
+.txt-1em {
+    font-size: 1em;
+}
+
+.txt-0-9em {
+    font-size: 0.9em;
+}
+
+
+
+/*-----------GROSOR DE TEXTO--------------*/
+
+.txt-w-300 {
+    font-weight: 300;
+}
+
+.txt-w-400 {
+    font-weight: 400;
+}
+
+.txt-w-500 {
+    font-weight: 500;
+}
+
+.txt-w-600 {
+    font-weight: 600;
+}
+
+.texto-w-700 {
+    font-weight: 700;
+}
+
+
+
+/*-----------GENERALES--------------*/
+
+.img-icon-sup {
+    width: 40%;
+    margin: auto;
+}
+
+.img-icon-serv {
+    width: 50%;
+    margin: auto;
+}
+
+.caja-relativa {
+    position: relative;
+}
+
+.caja-redes {
+    position: absolute;
+    top: -25px;
+}
+
+.margen-sup-caracteristicas {
+    padding-top: 50px;
+}
+
+.margen-inf-caracteristicas {
+    padding-bottom: 30px;
+}
+
+.caja-nosotros {
+    position: relative;
+}
+
+.caja-formas {
+    width: 100%;
+    clear: both;
+}
+
+.white-p {
+    color: #848484;
+}
+
+
+.borde-nosotros {
+    border-top: 1px solid white;
+}
+
+.borde-servicios {
+    border-top: 1px solid rgb(138, 200, 231);
+}
+
+.borde-software {
+    border-top: 1px solid#e0820c;
+}
+
+.borde-contacto {
+    border-top: 1px solid #e0820c;
+}
+
+.titu-serv {
+    font-size: 0.8em;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.item-serv {
+    margin-top: 30px;
+}
+
+.icon-bitcoin {
+    width: 160px;
+    margin: auto;
+}
+
+/* ==========================================================================
+   BOTONES
+   ========================================================================== */
+
+/*-----------REDES SOCIALES--------------*/
+
+.  {
+    padding: 0px;
+    margin: 0px 20px 0px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 100px;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+}
+
+.btn-redes:hover,
+.btn-redes:focus,
+.btn-redes:active,
+.btn-redes.active,
+.open .dropdown-toggle.btn-redes {
+    border: solid 1px;
+}
+
+.btn-redes:active,
+.btn-redes.active,
+.open .dropdown-toggle.btn-redes {
+    background-image: none;
+}
+
+.btn-redes img {
+    width: 50px;
+    padding: 10px;
+}
+
+/*-----------BOTON BLANCO--------------*/
+
+.btn-blanco {
+    font-weight: 500;
+    color: rgb(65, 112, 157);
+    background-color: white;
+    margin: 0px;
+    padding: 20px;
+    vertical-align: middle;
+    border: none;
+    border-radius: 0px;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+}
+
+.btn-blanco:hover,
+.btn-blanco:focus,
+.btn-blanco:active,
+.btn-blanco.active,
+.open .dropdown-toggle.btn-blanco {
+    color: white;
+    background-color: rgb(65, 112, 157);
+}
+
+
+.btn-blanco:active,
+.btn-blanco.active,
+.open .dropdown-toggle.btn-blanco {
+    background-image: none;
+}
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+/*------TAMAÑO ESCRITORIO - LARGO--*/
+
+@media screen and (max-width: 1200px) {}
+
+/*------TAMAÑO ESCRITORIO - PEQUEÑO--*/
+
+@media screen and (max-width: 992px) {}
+
+/*------TAMAÑO MEDIO - TABLES y ANDROIDES--*/
+
+@media screen and (max-width: 850px) {
+
+    #caja-logo {
+        width: 250px;
+    }
+
+    .form-usuario {
+        display: none;
+    }
+
+    .btn-entrar {
+        display: block;
+    }
+
+    #micarousel {
+        margin-top: 85px;
+    }
+
+}
+
+.form-group span {
+
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+
+    .titu-caracteristicas {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .titu-caracteristicas {
+        font-size: 0.8em;
+    }
+
+    .texto-sup {
+        display: none;
+    }
+
+    .icon-bitcoin {
+        width: 100px;
+    }
+
+    .btn-redes img {
+        width: 40px;
+    }
+
+    .img-icon-sup {
+        width: 60%;
+    }
+
+    .margen-sup-caracteristicas {
+        padding-top: 30px;
+    }
+
+    .titu-serv {
+        font-size: 0.6em;
+    }
+
+
+}
+
+@media screen and (max-width: 500px) {
+    .navbar-brand img {
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 400px) {}
+
+@media print,
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {}
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.thumbnail {
+    background-color: transparent;
+    border: none;
+}
+
+.thumbnail img {
+    height: 120px;
+}
+
+.caption>h3 {
+    color: white;
+}
+
+.caption>h4 {
+    color: #e0820d;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " ("attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " ("attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+
+}
