@@ -1,2 +1,2 @@
-# como-se-usa
-#seguir instrucciones
+°Instalaccion
+°Compatibilidad
